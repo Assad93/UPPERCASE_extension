@@ -3,11 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Upper My Text</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="script.js"></script>
+    <style>
+        body {
+            width: 500px;
+            height: 250px;
+        }
+    </style>
 </head>
 <body>
-    <input type="text" id="texto">
-    <button id="btn">Upper</button>
-    <div id="resultado"></div>
+    <h1 style="text-align: center;">UPPER MY TEXT</h1>
+    <div class="container">
+            <div class="form-group">
+              <input type="text" name="" id="texto" class="form-control" placeholder="Texto..">
+            </div>
+            <button id="btn" class="btn btn-success btn-lg btn-block">Upper</button>
+            <hr>
+            <input class="form-control" id="resultado" type="text" placeholder="Texto em caixa alta..." readonly>
+    </div>
+    
 </body>
 </html>
